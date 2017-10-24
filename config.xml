@@ -15,6 +15,7 @@
 
 	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
 	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
 
 
 	<preference name="deployment-target" value="8.0" />
