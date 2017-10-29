@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.pixelgang.angryz" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Angry Zombie</name>
 	<description>Help Fred kill the zombies</description>
@@ -10,23 +10,21 @@
 	<icon src="www/icon-76.png" gap:platform="ios" width="76" height="76" />
 	<icon src="www/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
 
-	<preference name="android-targetSdkVersion" value="21" />
+	
 
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
+	<preference name="windows-target-version" value="10.0" />
 
-	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
-	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
-	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+	
 
 
-	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="16" />
+	
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
-	<plugin name="cordova-plugin-ad-admob" />
+	
 	<plugin name="cordova-plugin-crosswalk-webview" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-httpd" />
@@ -37,6 +35,6 @@
 	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
-	<engine name="ios" />
-	<engine name="android" />
+	<engine name="windows" />
+	
 </widget>
